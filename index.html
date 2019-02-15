@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        span, ul, li, img {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #content {
+            width: 600px;
+            height: 251px;
+            margin: 100px auto;
+            background: url("img/mv-bj.jpg") no-repeat;
+
+            padding-top: 49px;
+
+        }
+
+        #box {
+            width: 464px;
+            height: 204px;
+            background: white;
+            border-radius: 8px;
+            margin-left: 70px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .top {
+            width: 220px;
+            height: 32px;
+
+            position: absolute;
+            left: 120px;
+            top: 20px;
+
+        }
+
+        .top img {
+            float: left;
+
+        }
+
+        .top strong {
+            display: inline-block;
+            position: absolute;
+            margin-top: 5px;
+
+            background: black;
+            width: 1px;
+            height: 22px;
+
+            margin-left: 10px;
+
+        }
+
+        .top span {
+            position: absolute;
+            right: 10px;
+
+            height: 32px;
+            line-height: 32px;
+            display: inline-block;
+
+        }
+
+        .center {
+            width: 270px;
+            height: 30px;
+            position: absolute;
+
+            left: 108px;
+            top: 81px;
+
+        }
+
+        .center ul li {
+            float: left;
+            margin-right: 8px;
+
+        }
+
+        .center span {
+            width: 60px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 6px;
+            background: #DE4A63;
+            display: inline-block;
+            color: white;
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+            display: none;
+
+        }
+
+        .bottom {
+            background: #de4a63;
+            height: 58px;
+            width: 464px;
+            bottom: 0;
+            color: white;
+            position: absolute;
+            text-align: center;
+            line-height: 58px;
+
+        }
+
+    </style>
+
+    
+</head>
+<body>
+<div id="content">
+    <div id="box">
+        <div class="top">
+            <img src="img/mv.gif" alt="">
+            <strong></strong>
+            <span>总体评价</span>
+        </div>
+
+        <div class="center">
+            <ul>
+                <li><img src="img/mv-0.gif" alt=""></li>
+                <li><img src="img/mv-0.gif" alt=""></li>
+                <li><img src="img/mv-0.gif" alt=""></li>
+                <li><img src="img/mv-0.gif" alt=""></li>
+                <li><img src="img/mv-0.gif" alt=""></li>
+            </ul>
+
+
+            <span>一般</span>
+        </div>
+
+        <div class="bottom">小提示：点击星星就能打分</div>
+
+    </div>
+
+</div>
+<script src="./index.js"></script>
+
+</body>
+</html>
